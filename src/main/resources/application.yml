@@ -1,0 +1,15 @@
+my:
+  greetings: Hello
+
+multiple:
+  values: one,two,three
+
+dbValues: "{connectionUrl :'https://ddsad',userName:'Database',password:'pass'}"
+
+db:
+  url: https://ddsad
+  username: username
+  password: password
+
+management.endpoints.web.exposure.include: "*"
+#include all endpoints of actuators
